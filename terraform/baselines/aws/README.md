@@ -17,6 +17,8 @@ Account-level baseline: multi-region CloudTrail (management events + log-file va
 
 CloudTrail SSE `rule` block is multi-line. The lab’s single-line nested form (`rule { apply_server_side_encryption_by_default { … } }`) is invalid HCL and fails `terraform init`; attributes are unchanged.
 
+The AWS account ID in `evidence/lab-5-2/security-hub-findings.json` is redacted to the AWS-docs placeholder `123456789012` (CloudTrail/Security Hub ARNs embed the account ID; S3-only evidence in earlier labs never did). Consistent with the Lab 4.3 precedent of keeping the real account ID out of the public repo.
+
 ## Apply notes
 
 - If Security Hub is already enabled: `terraform import aws_securityhub_account.this <ACCOUNT_ID>` before the first apply.

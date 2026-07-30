@@ -2,13 +2,13 @@
     "Findings": [
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/Config.1/finding/8b990798-e990-47cb-aefa-099aa2c2340a",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/Config.1/finding/8b990798-e990-47cb-aefa-099aa2c2340a",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/Config.1",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -32,14 +32,14 @@
             "ProductFields": {
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/Config.1/finding/8b990798-e990-47cb-aefa-099aa2c2340a",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/Config.1/finding/8b990798-e990-47cb-aefa-099aa2c2340a",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -98,13 +98,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.9/finding/10f8eea2-c826-4a94-9cae-4de6c0339274",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.9/finding/10f8eea2-c826-4a94-9cae-4de6c0339274",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.9",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -129,14 +129,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.9/finding/10f8eea2-c826-4a94-9cae-4de6c0339274",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.9/finding/10f8eea2-c826-4a94-9cae-4de6c0339274",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -177,13 +177,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.8/finding/35ebbff8-b1ac-410a-81a9-e6387ab258e5",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.8/finding/35ebbff8-b1ac-410a-81a9-e6387ab258e5",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.8",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -208,14 +208,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.8/finding/35ebbff8-b1ac-410a-81a9-e6387ab258e5",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.8/finding/35ebbff8-b1ac-410a-81a9-e6387ab258e5",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -256,13 +256,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.7/finding/532dd352-359f-4fad-86a5-2fd7098fdb75",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.7/finding/532dd352-359f-4fad-86a5-2fd7098fdb75",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.7",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -287,14 +287,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.7/finding/532dd352-359f-4fad-86a5-2fd7098fdb75",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.7/finding/532dd352-359f-4fad-86a5-2fd7098fdb75",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -335,13 +335,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.6/finding/279d0928-e1ca-4e2b-9c78-f2c9e3d7b1c6",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.6/finding/279d0928-e1ca-4e2b-9c78-f2c9e3d7b1c6",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.6",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -366,14 +366,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.6/finding/279d0928-e1ca-4e2b-9c78-f2c9e3d7b1c6",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.6/finding/279d0928-e1ca-4e2b-9c78-f2c9e3d7b1c6",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -414,13 +414,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.5/finding/97f3e04c-ccc0-44f5-9b77-b9ae63e8ad85",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.5/finding/97f3e04c-ccc0-44f5-9b77-b9ae63e8ad85",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.5",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -445,14 +445,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.5/finding/97f3e04c-ccc0-44f5-9b77-b9ae63e8ad85",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.5/finding/97f3e04c-ccc0-44f5-9b77-b9ae63e8ad85",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -493,13 +493,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.4/finding/cb8da732-2a1b-440e-87f7-b5cf02b145cb",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.4/finding/cb8da732-2a1b-440e-87f7-b5cf02b145cb",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.4",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -524,14 +524,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.4/finding/cb8da732-2a1b-440e-87f7-b5cf02b145cb",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.4/finding/cb8da732-2a1b-440e-87f7-b5cf02b145cb",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -572,13 +572,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.1/finding/4d9ae0c0-6fa4-4769-8e5f-e765cc46ae2c",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.1/finding/4d9ae0c0-6fa4-4769-8e5f-e765cc46ae2c",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.1",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -603,14 +603,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.1/finding/4d9ae0c0-6fa4-4769-8e5f-e765cc46ae2c",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.1/finding/4d9ae0c0-6fa4-4769-8e5f-e765cc46ae2c",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -652,13 +652,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.3/finding/aa0956ed-637d-4cf2-97f7-fd864b6f03f0",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.3/finding/aa0956ed-637d-4cf2-97f7-fd864b6f03f0",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.3",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -683,14 +683,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.3/finding/aa0956ed-637d-4cf2-97f7-fd864b6f03f0",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.3/finding/aa0956ed-637d-4cf2-97f7-fd864b6f03f0",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -731,13 +731,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.14/finding/e65788f8-c63f-4f6c-97a6-469af64fa894",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.14/finding/e65788f8-c63f-4f6c-97a6-469af64fa894",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.14",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -762,14 +762,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.14/finding/e65788f8-c63f-4f6c-97a6-469af64fa894",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.14/finding/e65788f8-c63f-4f6c-97a6-469af64fa894",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -810,13 +810,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.13/finding/23a37fb3-18be-4c5a-8b71-603e02d2f1c9",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.13/finding/23a37fb3-18be-4c5a-8b71-603e02d2f1c9",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.13",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -841,14 +841,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.13/finding/23a37fb3-18be-4c5a-8b71-603e02d2f1c9",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.13/finding/23a37fb3-18be-4c5a-8b71-603e02d2f1c9",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -889,13 +889,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.12/finding/9735b44f-4f97-4064-a29a-cce0d5d98cae",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.12/finding/9735b44f-4f97-4064-a29a-cce0d5d98cae",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.12",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -920,14 +920,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.12/finding/9735b44f-4f97-4064-a29a-cce0d5d98cae",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.12/finding/9735b44f-4f97-4064-a29a-cce0d5d98cae",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -968,13 +968,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.11/finding/be0116ba-8eca-413b-a07f-6afa31d6e515",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.11/finding/be0116ba-8eca-413b-a07f-6afa31d6e515",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.11",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -999,14 +999,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.11/finding/be0116ba-8eca-413b-a07f-6afa31d6e515",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.11/finding/be0116ba-8eca-413b-a07f-6afa31d6e515",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1047,13 +1047,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.10/finding/4d5fc7cc-230d-433c-8fb0-8b9e693ba958",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.10/finding/4d5fc7cc-230d-433c-8fb0-8b9e693ba958",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.10",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1078,14 +1078,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.10/finding/4d5fc7cc-230d-433c-8fb0-8b9e693ba958",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.10/finding/4d5fc7cc-230d-433c-8fb0-8b9e693ba958",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1126,13 +1126,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.2/finding/02a1ff7e-5862-412d-99b2-92a6cd036dac",
+            "Id": "arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.2/finding/02a1ff7e-5862-412d-99b2-92a6cd036dac",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/securityhub",
             "ProductName": "Security Hub",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "security-control/CloudWatch.2",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/Industry and Regulatory Standards"
             ],
@@ -1157,14 +1157,14 @@
                 "aws/securityhub/ProductName": "Security Hub",
                 "aws/securityhub/CompanyName": "AWS",
                 "aws/securityhub/annotation": "Multi region CloudTrail with the required configuration does not exist in the account",
-                "Resources:0/Id": "arn:aws:iam::365827925154:root",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:365827925154:security-control/CloudWatch.2/finding/02a1ff7e-5862-412d-99b2-92a6cd036dac",
+                "Resources:0/Id": "arn:aws:iam::123456789012:root",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/securityhub/arn:aws:securityhub:us-east-1:123456789012:security-control/CloudWatch.2/finding/02a1ff7e-5862-412d-99b2-92a6cd036dac",
                 "PreviousComplianceStatus": "FAILED"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "AWS::::Account:365827925154",
+                    "Id": "AWS::::Account:123456789012",
                     "Partition": "aws",
                     "Region": "us-east-1"
                 }
@@ -1205,13 +1205,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:access-analyzer:us-east-1:365827925154:analyzer/lab-account-analyzer/arn:aws:iam::365827925154:role/cgep-grc-gate",
+            "Id": "arn:aws:access-analyzer:us-east-1:123456789012:analyzer/lab-account-analyzer/arn:aws:iam::123456789012:role/cgep-grc-gate",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer",
             "ProductName": "IAM Access Analyzer",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "aws/access-analyzer",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/AWS Security Best Practices/External Access Granted"
             ],
@@ -1222,24 +1222,24 @@
                 "Label": "LOW",
                 "Normalized": 1
             },
-            "Title": "AwsIamRole/arn:aws:iam::365827925154:role/cgep-grc-gate/ allows cross-account access",
-            "Description": "AWS::IAM::Role/arn:aws:iam::365827925154:role/cgep-grc-gate/ allows cross-account access from Federated arn:aws:iam::365827925154:oidc-provider/token.actions.githubusercontent.com",
+            "Title": "AwsIamRole/arn:aws:iam::123456789012:role/cgep-grc-gate/ allows cross-account access",
+            "Description": "AWS::IAM::Role/arn:aws:iam::123456789012:role/cgep-grc-gate/ allows cross-account access from Federated arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com",
             "Remediation": {
                 "Recommendation": {
                     "Text": "If the access isn't intended, it indicates a potential security risk. Use the console for the resource to modify or remove the policy that grants the unintended access. You can use the Rescan button on the Finding details page in the Access Analyzer console to confirm whether the change removed the access. If the access is removed, the status changes to Resolved."
                 }
             },
-            "SourceUrl": "https://console.aws.amazon.com/access-analyzer/home?region=us-east-1#/findings?resource=arn%3Aaws%3Aiam%3A%3A365827925154%3Arole%2Fcgep-grc-gate",
+            "SourceUrl": "https://console.aws.amazon.com/access-analyzer/home?region=us-east-1#/findings?resource=arn%3Aaws%3Aiam%3A%3A123456789012%3Arole%2Fcgep-grc-gate",
             "ProductFields": {
-                "ResourceOwnerAccount": "365827925154",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer/arn:aws:access-analyzer:us-east-1:365827925154:analyzer/lab-account-analyzer/arn:aws:iam::365827925154:role/cgep-grc-gate",
+                "ResourceOwnerAccount": "123456789012",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer/arn:aws:access-analyzer:us-east-1:123456789012:analyzer/lab-account-analyzer/arn:aws:iam::123456789012:role/cgep-grc-gate",
                 "aws/securityhub/ProductName": "IAM Access Analyzer",
                 "aws/securityhub/CompanyName": "AWS"
             },
             "Resources": [
                 {
                     "Type": "AwsIamRole",
-                    "Id": "arn:aws:iam::365827925154:role/cgep-grc-gate",
+                    "Id": "arn:aws:iam::123456789012:role/cgep-grc-gate",
                     "Partition": "aws",
                     "Details": {
                         "Other": {
@@ -1247,7 +1247,7 @@
                             "Condition": "none",
                             "Resource Control Policy Restriction Type": "NOT_APPLICABLE",
                             "Action Granted": "sts:AssumeRoleWithWebIdentity",
-                            "External Principal": "arn:aws:iam::365827925154:oidc-provider/token.actions.githubusercontent.com"
+                            "External Principal": "arn:aws:iam::123456789012:oidc-provider/token.actions.githubusercontent.com"
                         }
                     }
                 }
@@ -1269,13 +1269,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:access-analyzer:us-east-1:365827925154:analyzer/lab-account-analyzer/arn:aws:iam::365827925154:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
+            "Id": "arn:aws:access-analyzer:us-east-1:123456789012:analyzer/lab-account-analyzer/arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer",
             "ProductName": "IAM Access Analyzer",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "aws/access-analyzer",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks/AWS Security Best Practices/External Access Granted"
             ],
@@ -1286,24 +1286,24 @@
                 "Label": "LOW",
                 "Normalized": 1
             },
-            "Title": "AwsIamRole/arn:aws:iam::365827925154:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0/ allows cross-account access",
-            "Description": "AWS::IAM::Role/arn:aws:iam::365827925154:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0/ allows cross-account access from Federated arn:aws:iam::365827925154:saml-provider/AWSSSO_21120184d4da8cd1_DO_NOT_DELETE",
+            "Title": "AwsIamRole/arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0/ allows cross-account access",
+            "Description": "AWS::IAM::Role/arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0/ allows cross-account access from Federated arn:aws:iam::123456789012:saml-provider/AWSSSO_21120184d4da8cd1_DO_NOT_DELETE",
             "Remediation": {
                 "Recommendation": {
                     "Text": "If the access isn't intended, it indicates a potential security risk. Use the console for the resource to modify or remove the policy that grants the unintended access. You can use the Rescan button on the Finding details page in the Access Analyzer console to confirm whether the change removed the access. If the access is removed, the status changes to Resolved."
                 }
             },
-            "SourceUrl": "https://console.aws.amazon.com/access-analyzer/home?region=us-east-1#/findings?resource=arn%3Aaws%3Aiam%3A%3A365827925154%3Arole%2Faws-reserved%2Fsso.amazonaws.com%2FAWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
+            "SourceUrl": "https://console.aws.amazon.com/access-analyzer/home?region=us-east-1#/findings?resource=arn%3Aaws%3Aiam%3A%3A123456789012%3Arole%2Faws-reserved%2Fsso.amazonaws.com%2FAWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
             "ProductFields": {
-                "ResourceOwnerAccount": "365827925154",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer/arn:aws:access-analyzer:us-east-1:365827925154:analyzer/lab-account-analyzer/arn:aws:iam::365827925154:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
+                "ResourceOwnerAccount": "123456789012",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/access-analyzer/arn:aws:access-analyzer:us-east-1:123456789012:analyzer/lab-account-analyzer/arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
                 "aws/securityhub/ProductName": "IAM Access Analyzer",
                 "aws/securityhub/CompanyName": "AWS"
             },
             "Resources": [
                 {
                     "Type": "AwsIamRole",
-                    "Id": "arn:aws:iam::365827925154:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
+                    "Id": "arn:aws:iam::123456789012:role/aws-reserved/sso.amazonaws.com/AWSReservedSSO_LabReadOnly_1216b8c1ac7278f0",
                     "Partition": "aws",
                     "Details": {
                         "Other": {
@@ -1311,7 +1311,7 @@
                             "Condition": "none",
                             "Resource Control Policy Restriction Type": "NOT_APPLICABLE",
                             "Action Granted": "sts:TagSession,sts:AssumeRoleWithSAML",
-                            "External Principal": "arn:aws:iam::365827925154:saml-provider/AWSSSO_21120184d4da8cd1_DO_NOT_DELETE"
+                            "External Principal": "arn:aws:iam::123456789012:saml-provider/AWSSSO_21120184d4da8cd1_DO_NOT_DELETE"
                         }
                     }
                 }
@@ -1333,13 +1333,13 @@
         },
         {
             "SchemaVersion": "2018-10-08",
-            "Id": "arn:aws:health:global:365827925154:event/ORGANIZATIONS/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT_bbc59de6521062bf4aaca96566fee2a93ca4240e649c94c6639f4524b867a841/b0863428553f3cad732ca6f0b89ecfcc60b5d6fa",
+            "Id": "arn:aws:health:global:123456789012:event/ORGANIZATIONS/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT_bbc59de6521062bf4aaca96566fee2a93ca4240e649c94c6639f4524b867a841/b0863428553f3cad732ca6f0b89ecfcc60b5d6fa",
             "ProductArn": "arn:aws:securityhub:us-east-1::product/aws/health",
             "ProductName": "Health",
             "CompanyName": "AWS",
             "Region": "us-east-1",
             "GeneratorId": "AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT",
-            "AwsAccountId": "365827925154",
+            "AwsAccountId": "123456789012",
             "Types": [
                 "Software and Configuration Checks"
             ],
@@ -1354,14 +1354,14 @@
             "SourceUrl": "https://phd.aws.amazon.com/phd/home#/event-log?eventID=arn:aws:health:global::event/ORGANIZATIONS/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT_bbc59de6521062bf4aaca96566fee2a93ca4240e649c94c6639f4524b867a841",
             "ProductFields": {
                 "HealthEventStartTime": "2026-09-09T07:00:00.000Z",
-                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/health/arn:aws:health:global:365827925154:event/ORGANIZATIONS/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT_bbc59de6521062bf4aaca96566fee2a93ca4240e649c94c6639f4524b867a841/b0863428553f3cad732ca6f0b89ecfcc60b5d6fa",
+                "aws/securityhub/FindingId": "arn:aws:securityhub:us-east-1::product/aws/health/arn:aws:health:global:123456789012:event/ORGANIZATIONS/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT/AWS_ORGANIZATIONS_PLANNED_LIFECYCLE_EVENT_bbc59de6521062bf4aaca96566fee2a93ca4240e649c94c6639f4524b867a841/b0863428553f3cad732ca6f0b89ecfcc60b5d6fa",
                 "aws/securityhub/ProductName": "Health",
                 "aws/securityhub/CompanyName": "AWS"
             },
             "Resources": [
                 {
                     "Type": "AwsAccount",
-                    "Id": "365827925154",
+                    "Id": "123456789012",
                     "Partition": "aws"
                 }
             ],
