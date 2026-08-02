@@ -1,0 +1,62 @@
+{
+    "auditConfigs": [
+        {
+            "auditLogConfigs": [
+                {
+                    "logType": "DATA_WRITE"
+                },
+                {
+                    "logType": "DATA_READ"
+                },
+                {
+                    "logType": "ADMIN_READ"
+                }
+            ],
+            "service": "storage.googleapis.com"
+        },
+        {
+            "auditLogConfigs": [
+                {
+                    "logType": "DATA_WRITE"
+                },
+                {
+                    "logType": "DATA_READ"
+                },
+                {
+                    "logType": "ADMIN_READ"
+                }
+            ],
+            "service": "iam.googleapis.com"
+        },
+        {
+            "auditLogConfigs": [
+                {
+                    "logType": "DATA_WRITE"
+                },
+                {
+                    "logType": "DATA_READ"
+                },
+                {
+                    "logType": "ADMIN_READ"
+                }
+            ],
+            "service": "cloudkms.googleapis.com"
+        }
+    ],
+    "bindings": [
+        {
+            "members": [
+                "user:you@example.com"
+            ],
+            "role": "roles/owner"
+        },
+        {
+            "members": [
+                "serviceAccount:cgep-grc-gate-sa@your-gcp-project.iam.gserviceaccount.com"
+            ],
+            "role": "roles/viewer"
+        }
+    ],
+    "etag": "BwZYBl7tyLA=",
+    "version": 1
+}
