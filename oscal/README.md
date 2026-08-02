@@ -39,9 +39,17 @@ inside its retention window.
 Built in a scratch trestle workspace (`~/scratch/lab-6-1/`), then copied flat into this directory (checklist shape ≠ trestle nested layout).
 
 ```bash
-trestle validate -f oscal/components/compliant-s3-v1.json
-trestle validate -f oscal/profiles/cge-p-minimum.json
+cd ~/scratch/lab-6-1
+trestle validate -f component-definitions/compliant-s3-v1/component-definition.json
+trestle validate -f profiles/cge-p-minimum/profile.json
 ```
+
+**Why the `cd`:** `trestle` finds models through the `.trestle/` directory that `trestle init` creates at the
+workspace root, so `-f` takes a *workspace-relative* path, not a filesystem one. This repo is not a trestle
+workspace — `trestle validate -f oscal/components/compliant-s3-v1.json` from the repo root fails on the missing
+root before it ever opens the JSON. The files committed here are byte-identical copies of the ones validated in
+`~/scratch/lab-6-1/`, so reproducing the check means recreating that workspace rather than pointing `trestle` at
+`oscal/`.
 
 Evidence capture: [`evidence/lab-6-1/trestle-validate.txt`](../evidence/lab-6-1/trestle-validate.txt).
 
