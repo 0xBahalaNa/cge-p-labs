@@ -1,5 +1,6 @@
 # Terraform local state and plugin cache (never commit)
 .terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
 crash.log
