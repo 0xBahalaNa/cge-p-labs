@@ -27,16 +27,21 @@ Auditor → verify-evidence.sh <run_id>
 
 | Property | Proving artifact | Verified by |
 |--------------|------------------|-------------|
-| **Authenticity** | `*.sig.bundle` — the Cosign signature + Fulcio short-lived cert carrying the GitHub OIDC subject (`repo:0xBahalaNa/cge-p-portfolio:…`) | `cosign verify-blob` (check 2): the cert chains to Fulcio and the OIDC issuer matches → proves *who* produced it |
+| **Authenticity** | `*.sig.bundle` — the Cosign signature + Fulcio short-lived cert carrying the GitHub OIDC subject (`repo:0xBahalaNa/cge-p-labs:…`) | `cosign verify-blob` (check 2): the cert chains to Fulcio and the OIDC issuer matches → proves *who* produced it |
 | **Integrity** | `*.tar.gz.sha256` — the SHA-256 digest captured at sign time | check 1: recompute the bundle's SHA-256 and compare to the sidecar (`FAIL: SHA mismatch` on any change) → proves the bytes are *unchanged* |
 | **Timeliness** | the Rekor transparency-log entry packed inside `*.sig.bundle` — a public, append-only timestamp of the signing event | `cosign verify-blob` (check 2): confirms the Rekor entry exists and matches → proves *when* it was made |
 | **Preservation** | the S3 Object Lock retention on the vaulted object under `runs/<run_id>/` | check 3: `get-object-retention` confirms `RetainUntilDate` is still in the future → proves it *still exists, intact and undeletable* |
 
 > The `.sig.bundle` legitimately proves **two** properties — **authenticity** (the Fulcio cert) and **timeliness** (the Rekor entry) — both validated in the single `cosign verify-blob` call. The `.sha256` sidecar and the Object Lock retention each map to exactly one property. The `.tar.gz` bundle itself is the *subject* being proven, not a proof.
 
+> This repo was renamed from `cge-p-portfolio` to `cge-p-labs` on 2026-08-09. Bundles signed
+> before that date carry the former path in their Fulcio cert. That is expected, because the cert
+> records the signing identity as it stood at signing time. `scripts/verify-evidence.sh` matches
+> with `--certificate-identity-regexp '.*'`, so bundles signed under either name verify.
+
 ## Controls (derived — the lab checklist names none)
 
-- **AU-10 (non-repudiation)** — the keyless Cosign signature binds the bundle to the GitHub OIDC identity (`repo:0xBahalaNa/cge-p-portfolio:...`); no operator can forge it, because the signing identity is minted by Sigstore, not held in the AWS account.
+- **AU-10 (non-repudiation)** — the keyless Cosign signature binds the bundle to the GitHub OIDC identity (`repo:0xBahalaNa/cge-p-labs:...`); no operator can forge it, because the signing identity is minted by Sigstore, not held in the AWS account.
 - **AU-9 (protection of audit information)** — S3 Object Lock makes the vaulted bundle immutable.
 - **AU-11 (audit record retention)** — Object Lock default retention keeps the evidence for its retention window.
 - **SI-7 (software/information integrity)** — the SHA-256 sidecar plus verify-time recompute detects any modification.
