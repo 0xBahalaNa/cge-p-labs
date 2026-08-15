@@ -7,7 +7,7 @@ Account-level baseline: multi-region CloudTrail (management events + log-file va
 | Service | Controls | How this baseline satisfies them |
 |---|---|---|
 | CloudTrail | AU-2, AU-12 | Multi-region management-event trail (`cgep-lab-mgmt`) records API activity account-wide. |
-| CloudTrail | AU-10 | `enable_log_file_validation = true` — hourly signed digest files for tamper detection. |
+| CloudTrail | AU-10 | `enable_log_file_validation = true`: hourly signed digest files for tamper detection. |
 | Security Hub | RA-5, SI-4 | NIST 800-53 Rev 5 + FSBP subscriptions produce continuous, normalized findings. |
 | AWS Config | CM-2, CM-6, CM-8 | **Not deployed** (see Declared delta). |
 
@@ -23,4 +23,4 @@ The AWS account ID in `evidence/lab-5-2/security-hub-findings.json` is redacted 
 
 - If Security Hub is already enabled: `terraform import aws_securityhub_account.this <ACCOUNT_ID>` before the first apply.
 - Privileged AWS ops in this sandbox require an MFA session.
-- No `config.tf` — do not add one unless intentionally departing from this delta.
+- No `config.tf`. Do not add one unless intentionally departing from this delta.
