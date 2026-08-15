@@ -46,4 +46,4 @@ Auditor → verify-evidence.sh <run_id>
 - **AU-11 (audit record retention)** — Object Lock default retention keeps the evidence for its retention window.
 - **SI-7 (software/information integrity)** — the SHA-256 sidecar plus verify-time recompute detects any modification.
 
-**FedRAMP High / CJIS delta:** same pattern; CJIS v6.0 evidence for CJI would use `COMPLIANCE`-mode Object Lock (not `GOVERNANCE`) and agency-managed keys, versus this lab's `GOVERNANCE`/AES256 baseline.
+**FedRAMP High / CJIS delta:** same pattern; CJIS v6.1 evidence for CJI would use `COMPLIANCE`-mode Object Lock (not `GOVERNANCE`) and agency-managed keys, versus this lab's `GOVERNANCE`/AES256 baseline.
